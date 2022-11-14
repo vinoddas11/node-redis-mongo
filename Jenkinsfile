@@ -3,7 +3,7 @@ pipeline{
 	agent any
 
 	environment {
-		DOCKERHUB_CREDENTIALS=credentials('prjdocker')
+		DOCKERHUB_CREDENTIALS=Docker
 	}
 
 	stages {
